@@ -4,7 +4,7 @@ import Logo from './assets/logo.png'
 function App() {
 
 async function createStudentAccess() {
-  const response = await fetch("http://localhost:3000/api/v1/auth/students/access", {
+  const response = await fetch("https://transfere-api-stage-52421872894.us-central1.run.app/api/v1/auth/students/access", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -15,7 +15,8 @@ async function createStudentAccess() {
       name: "Teste criado",
       email: "criadomockportadl@gmail.com",
       ra: "223344556",
-      courseId: "ANAL",
+      courseId: "1.2ADM",
+      curriculum: "1.2ADM.2023.01",
       courseName: "Bacharelado em Administração",
     }),
   });
