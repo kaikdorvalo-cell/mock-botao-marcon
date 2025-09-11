@@ -31,7 +31,7 @@ async function createStudentAccess() {
 }
 
 	return (
-    <div style={{ backgroundColor: "orange", height: "100vh", display: 'flex', justifyContent: "center", alignItems: 'center'}}>
+    <div style={{ backgroundColor: "white", height: "100vh", display: 'flex', justifyContent: "center", alignItems: 'center'}}>
       <button onClick={createStudentAccess} type="button" style={{ backgroundColor: '#128bfcff', color: '#ffffffff', height: '80px', width: '400px', fontWeight: 'bold', fontSize: "20px", display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '20px' }}>
         <img src={Logo} alt="logo"></img>
         Transfere Fácil
