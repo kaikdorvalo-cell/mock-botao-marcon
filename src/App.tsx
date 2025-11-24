@@ -8,7 +8,7 @@ async function createStudentAccess() {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      "college-id": "f2567ebb-93ec-40ce-b85c-49cf607f22b0",
+      "college-id": "019a83b9-9205-7152-b772-15037cd80640",
       "college-token": "1f388a34-521c-440c-8aaa-d8099b680e18",
     },
     body: JSON.stringify({
