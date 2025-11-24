@@ -12,7 +12,7 @@ async function createStudentAccess() {
       "college-token": "1f388a34-521c-440c-8aaa-d8099b680e18",
     },
     body: JSON.stringify({
-      name: "Teste criado",
+      name: "Ulisses Rocketman",
       email: "criadomockportadl@gmail.com",
       ra: "223344556",
       courseId: "1.2ADM",
