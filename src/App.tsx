@@ -13,7 +13,7 @@ async function createStudentAccess() {
     },
     body: JSON.stringify({
       name: "Gustavo Silva",
-      email: "alunoTeste@teste.com",
+      email: "alunoTest@teste.com",
       ra: "223346",
       courseId: "1.TGCO",
       curriculum: "1.TGCO.2026.01",
