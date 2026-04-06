@@ -12,12 +12,12 @@ async function createStudentAccess() {
       "college-token": "1f388a34-521c-440c-8aaa-d8099b680e18",
     },
     body: JSON.stringify({
-      name: "Aluno Teste",
+      name: "Gustavo Silva",
       email: "alunoTeste@teste.com",
       ra: "223344556",
-      courseId: "1.LCBI",
-      curriculum: "1.LCBI.2026.01",
-      courseName: "LICENCIATURA EM CIÊNCIAS BIOLÓGICAS",
+      courseId: "1.TGCO",
+      curriculum: "1.TGCO.2026.01",
+      courseName: "GESTÃO COMERCIAL",
     }),
   });
 
